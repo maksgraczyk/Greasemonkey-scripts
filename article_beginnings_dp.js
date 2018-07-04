@@ -28,6 +28,8 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
+const MAX_NUMBER_OF_WORDS = 40;
+
 function addArticleBeginning(articleBlock, beginningText)
 {
     var paragraph = document.createElement("p");
@@ -75,9 +77,9 @@ for (var i = 0; i < articleBlocks.length; i++)
 
                     var articleBeginning = "";
 
-                    if (firstParagraphWords.length > 40)
+                    if (firstParagraphWords.length > MAX_NUMBER_OF_WORDS)
                     {
-                        for (var k = 0; k < 40; k++)
+                        for (var k = 0; k < MAX_NUMBER_OF_WORDS; k++)
                         {
                             articleBeginning += firstParagraphWords[k] + " ";
                         }
