@@ -37,7 +37,7 @@ function addArticleBeginning(articleBlock, beginningText)
     articleBlock.appendChild(paragraph);
 }
 
-var articleBlocks = document.getElementsByClassName("span-6")
+var articleBlocks = document.getElementsByClassName("span-6");
 for (var i = 0; i < articleBlocks.length; i++)
 {
     var header = articleBlocks[i].getElementsByTagName("header")[0];
