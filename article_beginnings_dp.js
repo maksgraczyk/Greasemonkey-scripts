@@ -4,7 +4,7 @@
 // @description    This script downloads and shows the beginning of all articles linked to from the main page or the publications list at dobreprogramy.pl.
 // @description:pl Ten skrypt pobiera i pokazuje początki wszystkich artykułów zalinkowanych ze strony głównej lub listy publikacji na stronie dobreprogramy.pl.
 // @version        1
-// @license        GPL-3.0-or-later
+// @license        GPL-3.0
 // @grant          none
 // @updateURL      https://openuserjs.org/meta/super_max2/article_beginnings_dp.meta.js
 // @include        https://dobreprogramy.pl/
@@ -12,6 +12,10 @@
 // @include        https://www.dobreprogramy.pl/Aktualnosci,*
 // @include        https://dobreprogramy.pl/Aktualnosci,*
 // ==/UserScript==
+
+// ==OpenUserJS==
+// @author super_max2
+// ==/OpenUserJS==
 
 /*
 Copyright (C) 2018 Maksymilian Graczyk.
