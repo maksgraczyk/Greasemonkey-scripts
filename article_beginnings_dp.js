@@ -6,7 +6,6 @@
 // @version        1
 // @license        GPL-3.0-or-later
 // @grant          none
-// @updateURL      https://openuserjs.org/meta/super_max2/article_beginnings_dp.meta.js
 // @include        https://dobreprogramy.pl/
 // @include        https://www.dobreprogramy.pl/
 // @include        https://www.dobreprogramy.pl/Aktualnosci,*
