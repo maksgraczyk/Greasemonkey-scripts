@@ -3,7 +3,7 @@
 // @name:pl        Początki artykułów na dobreprogramy.pl
 // @description    This script downloads and shows the beginning of all articles linked to from the main page or the publications list at dobreprogramy.pl.
 // @description:pl Ten skrypt pobiera i pokazuje początki wszystkich artykułów zalinkowanych ze strony głównej lub listy publikacji na stronie dobreprogramy.pl.
-// @version        1
+// @version        2
 // @license        GPL-3.0-or-later
 // @grant          none
 // @include        https://dobreprogramy.pl/
@@ -74,7 +74,7 @@ for (var i = 0; i < articleBlocks.length; i++)
 
                     for (; j < paragraphs.length; j++)
                     {
-                        if (paragraphs[j].className === "" || paragraphs[j].className === undefined) break;
+                        if ((paragraphs[j].className === "" || paragraphs[j].className === undefined) && paragraphs[j].innerText !== "" && paragraphs[j].innerText !== undefined) break;
                     }
 
                     var firstParagraphText = paragraphs[j].innerText;
